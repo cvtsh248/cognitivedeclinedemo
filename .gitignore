@@ -1,0 +1,44 @@
+# .gitignore - ignore Python virtualenv and common artifacts
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# If .venv is already tracked, untrack with:
+# git rm -r --cached .venv
+# git commit -m "Stop tracking .venv"
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest
+.pytest_cache/
+
+# Environments
+.env
+.env.*
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Misc
+*.log
+*.pot
+*.mo
